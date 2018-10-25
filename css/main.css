@@ -1,3 +1,31 @@
 html {
+
+}
+
+.link-card {
+display: block;
+text-decoration: none;
+}
+
+.link-card:hover {
+background-color: #dcd4cd;
+border-color: #cabdb2;
+color: #512200;
+}
+
+h2 {
   font-family: Dosis, sans-serif;
+}
+
+span {
+  font-family: Dosis, sans-serif;
+}
+
+
+dd {
+  display:inline-block
+}
+
+dt {
+  display:inline-block
 }
