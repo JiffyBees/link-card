@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   color: #f0eee8;
-  line-height: 1.5;
+  font: normal 100%/1.5 Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -15,6 +15,7 @@ html {
   background-color: #dcd4cd;
   border: solid;
   border-color: #9a816d;
+  padding: 1em;
 }
 
 .link-card:hover {
@@ -24,15 +25,15 @@ html {
 .link-card h2 {
   font-family: Dosis, sans-serif;
   margin: 0;
-  padding-top: .75em;
-  padding-left: .75em;
+  font-weight: bold;
+  padding-bottom: .75em;
 }
 
 .btn {
   font-family: Dosis, sans-serif;
   color: #f0eee8;
   background-color: #785439;
-  padding: .4em;
+  padding: .4em .75em .5em;
   border-radius: 8px;
   border-width: 3px;
   font-size: 1.125em;
@@ -42,6 +43,8 @@ html {
 
 div {
   text-align: center;
+  border-top: 2px solid #9a816d;
+  padding-top: 1em;
 }
 
 .btn:hover {
@@ -51,15 +54,17 @@ div {
 
 p {
   font-family: Georgia;
-  padding: 1em;
+  padding-bottom: 1em;
   margin: 0;
 }
 
 dl {
   font-family: Georgia;
   font-size: .875em;
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   margin: 0;
+  border-top: 2px solid #9a816d;
 }
 
 dd {
